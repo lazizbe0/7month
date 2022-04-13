@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slider__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    background: purple;
+}
+
+.slider__controls {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 15px;
+}
